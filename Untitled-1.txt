@@ -1,0 +1,4 @@
+$cred = 
+
+
+Copy-DbaAgentJob -Source drps3dbsv01p -Destination drps3dbsv01s -Job PSJob -SourceSqlCredential $cred -Forc
